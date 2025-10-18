@@ -1,0 +1,30 @@
+{
+  "name": "ytdl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "clear && nodemon --exec 'ts-node -r tsconfig-paths/register' src/index.ts",
+    "build": "tsc && tsc-alias",
+    "start": "node dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^9.37.0",
+    "nodemon": "^3.1.10",
+    "ts-node-dev": "^2.0.0",
+    "tsc-alias": "^1.8.16",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.12",
+    "dotenv": "^17.2.3",
+    "module-alias": "^2.2.3",
+    "telegraf": "^4.16.3",
+    "ytdl-core": "^4.11.5",
+    "ytdlp-nodejs": "^2.3.5"
+  }
+}
