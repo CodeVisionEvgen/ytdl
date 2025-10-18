@@ -1,4 +1,3 @@
-import { createReadStream, WriteStream } from "fs";
 import { YtDlp } from "ytdlp-nodejs";
 
 export class YTAudioDownloader {

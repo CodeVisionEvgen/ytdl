@@ -4,6 +4,7 @@ config();
 export interface IConfig {
   BOT_KEY: string;
   FUNCS_DIR: string;
+  NODE_ENV: "dev" | "prod";
 }
 
 export const getConfig = (key: keyof IConfig): string => {
